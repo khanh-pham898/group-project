@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #333, #444);
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hero button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.car-listings {
+    margin-top: 40px;
+}
+
+.car-listing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.car-listing {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.car-listing h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-listing p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.car-listing img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
