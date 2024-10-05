@@ -67,10 +67,14 @@ nav ul li a {
 main {
 
     padding: 5px;
+    align-items: center;
+}
+div.car-listing-grid{
+    align-items:center;
+    margin-left: 70px; 
 }
 
 h2 {
     float: left;
     padding: 20px;
 }
-
