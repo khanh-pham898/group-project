@@ -111,14 +111,14 @@ footer {
     justify-content: space-between;
     padding: 20px;
     background-color: white;
-    color: white;
+    color: black;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 footer a{
     align-items: start;
-    color: #f5f5f5;
+    color:blue;
 }
 footer p {
     text-align: right;
